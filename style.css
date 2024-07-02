@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    margin-bottom: 20px;
+    background: linear-gradient(to right, magenta, orange);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.container{
+    margin-top: 150px;
+    text-align: center;
+}
+label{
+    color:  #d966ff;
+    font-size: 20px;
+}
+input{
+    height: 30px;
+}
+input[type="number"]{
+    font-size: 16px;
+    color:  #ff5500;
+    padding: 3px;
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    background-image: linear-gradient(to right, orange, yellow);
+    border-radius: 5px;
+    color: blueviolet;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#p{
+    margin-top: 20px;
+    color: red;
+}
